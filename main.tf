@@ -1,5 +1,6 @@
 provider "ibm" {
   bluemix_api_key = "${var.bluemix_api_key}"
+  region = "${var.region}"
 }
 
 data "ibm_org" "org" {
