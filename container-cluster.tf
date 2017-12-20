@@ -32,7 +32,7 @@ variable "datacenter" {
   description = "The data center for the cluster, You can get the list with by running bluemix cs locations."
 }
 variable "machine_type" {
-  default = "u1c.2x4"
+  default = "u2c.2x4"
   description = "The CPU cores, memory, network, and speed. You can get a list for a given location by running bluemix cs machine-types <location>."
 }
 variable "isolation" {

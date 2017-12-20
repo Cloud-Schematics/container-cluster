@@ -10,8 +10,8 @@ Environments can be used to separate software components into development tiers 
 
 1. In IBM Cloud, go to the menu and select the [Schematics dashboard](https://console.bluemix.net/schematics).
 2. In the left navigation menu, select **Templates** to access the template catalog.
-3. Click **Create** on the containers cluster template. You are taken to a configuration page where you can define data about your environment. 
-4. Define values for your variables according to the following table. 
+3. Click **Create** on the containers cluster template. You are taken to a configuration page where you can define data about your environment.
+4. Define values for your variables according to the following table.
 
 ### Variables
 
@@ -20,7 +20,7 @@ Environments can be used to separate software components into development tiers 
 |bluemix_api_key|Your IBM Cloud API key. You can get the value by running `bx iam api-key-create <key name>`.||
 |cluster_name| The base name for the cluster. |kubecluster|
 |datacenter| The data center for the cluster, You can get the list with by running `bluemix cs locations`. |dal12|
-|machine_type| The CPU cores, memory, network, and speed. You can get a list for a given location by running `bluemix cs machine-types <location>`. |u1c.2x4|
+|machine_type| The CPU cores, memory, network, and speed. You can get a list for a given location by running `bluemix cs machine-types <location>`. |u2c.2x4|
 |num_workers| The number of worker nodes in the cluster. |2|
 |org| Your IBM Cloud org name.||
 |private_vlan_id| The private VLAN for your account. You can run `bx cs vlans <location>`. ||
